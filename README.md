@@ -11,7 +11,7 @@ BERT + CRF
 To improve performance, we added a Conditional Random Field (CRF) layer on top of the BERT model. This approach achieved a significant improvement, reaching an accuracy of 60%.
 
 BiLSTM + CRF
-Finally, we implemented a BiLSTM + CRF model, which outperformed the previous methods. This model achieved an impressive accuracy of 92% on the test dataset.
+Finally, we implemented a BiLSTM + CRF model, which outperformed the previous methods. This model achieved an impressive accuracy of 96% on the test dataset.
 
 File Structure
 Fine-tuning BERT.ipynb: Code for training the fine-tuned BERT model.
